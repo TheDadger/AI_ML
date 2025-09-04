@@ -12,3 +12,6 @@ print(data_frame.isnull().sum())
 data_frame=data_frame.dropna()
 print(data_frame.isnull().sum())
 
+sns.scatterplot(x='area',y='price',data=data_frame)
+
+plt.show()
